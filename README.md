@@ -1,0 +1,1 @@
+# zevioo-rating-widget
