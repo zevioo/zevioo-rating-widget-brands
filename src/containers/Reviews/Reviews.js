@@ -38,16 +38,15 @@ class Reviews extends Component {
 
     
     componentDidMount() {
-        const render = document.getElementById('zevioo-reviews');
+        const render = document.getElementById('zevioo-brands-reviews');
         const USR = render.getAttribute('data-usr');
         const PSW = render.getAttribute('data-psw');
         const EAN = render.getAttribute('data-ean');
 
-        axios.post('/getreviews', {
+        axios.post('/getbreviews', {
             USR: USR,
             PSW: PSW,
-            EAN: EAN,
-            ST: 0
+            EAN: EAN
         })
              .then(response => {
                const obj = response.data;

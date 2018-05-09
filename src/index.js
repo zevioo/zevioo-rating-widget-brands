@@ -16,11 +16,11 @@ axios.defaults.headers.post['Content-Type'] = 'application/json';
 // Append Style 
 var style_tag = document.createElement('link');
 style_tag.setAttribute("rel","stylesheet");
-style_tag.setAttribute("href","https://zevioo.com/widgets/css/zeviooRatingWidget.css");
+style_tag.setAttribute("href","https://zevioo.com/widgets/css/zeviooBrandsRatingWidget.css");
 (document.getElementsByTagName("head")[0] || document.documentElement).appendChild(style_tag);
 
 const zeviooRating = document.querySelectorAll('.zevioo-rating')
-const zeviooReviews = document.getElementById('zevioo-reviews')
+const zeviooReviews = document.getElementById('zevioo-brands-reviews')
 const zeviooBanner = document.getElementById('zevioo-banner')
 
 

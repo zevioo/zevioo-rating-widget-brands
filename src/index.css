@@ -164,7 +164,7 @@ span.zevioo-loading__6 {-webkit-animation-delay: 0;animation-delay: 0;-ms-animat
   font-family: Helvetica, sans-serif;
   font-family: var(--font-family-helvetica);
 }
-#zevioo-reviews {
+#zevioo-brands-reviews {
   font-family: Helvetica, sans-serif;
   font-family: var(--font-family-helvetica);
   margin: auto;
@@ -223,7 +223,7 @@ img.zevioo-icons {
   box-shadow: 0px 1px 15px 1px rgba(113, 106, 202, 0.08);
   background-color: var(--white);
 }
-#zevioo-reviews {
+#zevioo-brands-reviews {
   padding: 0px;
 }
 .zevioo-product-review {
